@@ -1,0 +1,82 @@
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/cool-wallpapers-backgrounds-check-out-our-68126782.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  #container{
+      background-color: burlywood;
+      width: 400px;
+      height: 400px;
+      padding: 30px;
+      border-radius: 30px;
+      margin-top: 60px;
+     
+  }
+  .header-con{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30px;
+      background-color: crimson;
+  }
+  .header-con h1 {
+     font-family: 'Island Moments', cursive;
+   }
+  .header-con:hover{
+      background-color: crimson;
+      color: #ffffff;
+  }
+  .ins-con{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
+  .ins-con h3{
+      font-family: 'Island Moments', cursive;
+  }
+  .warn-con{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      height: 100px;
+  }
+  .warn-con h4 {
+     font-family: 'Island Moments', cursive;
+      color: #ccc;
+      font-style: italic;
+      
+   }
+  .btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  button {
+    padding: 20px 50px 20px 50px;
+      background-color: firebrick;
+      border-radius: 20px;
+      font-size: 2em;
+      font-family: 'Island Moments', cursive;
+      border: none;
+  }
+  button:hover {
+    background-color: crimson;
+      color: #ffffff;
+  }
+  .link{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .link a {
+     font-size: 1.2em;
+   }
+  .link a:hover{
+      background-color: cornflowerblue;
+  }
